@@ -64,7 +64,7 @@ def run():
     put_markdown('# ***UC Match: GPA Calculator***')
     uchonorcount = 1000
     while reasonableUCHonorsCount(uchonorcount,info) == 'Invalid number of UC Honors courses':
-        uchonorcount = input('Enter number of UC Honors courses taken between the summer of 9th grade and summer of 11th grade inclusively. Only give yourself an extra point if you got a grade of C or higher in the UC Honor class',type=NUMBER)
+        uchonorcount = input('Enter number of semester-long UC Honors courses taken between the summer of 9th grade and summer of 11th grade inclusively. Only count the semester-long course if you got a grade of C or higher.',type=NUMBER)
     
     gradeCounts = 0
     for k,v in info.items():
