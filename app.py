@@ -48,10 +48,10 @@ def run():
     info = input_group("User info",[
         input('Enter number of terms per school year', name='termCount', type=NUMBER, validate=validateTermCount),
         input('Enter number of a-g As in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeA_count10', type=NUMBER, validate=reasonableNumberOfGrades),
-        input('Enter number of a-g As in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeB_count10', type=NUMBER, validate=reasonableNumberOfGrades),
-        input('Enter number of a-g As in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeC_count10', type=NUMBER, validate=reasonableNumberOfGrades),
-        input('Enter number of a-g As in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeD_count10', type=NUMBER, validate=reasonableNumberOfGrades),
-        input('Enter number of a-g As in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeF_count10', type=NUMBER, validate=reasonableNumberOfGrades),
+        input('Enter number of a-g Bs in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeB_count10', type=NUMBER, validate=reasonableNumberOfGrades),
+        input('Enter number of a-g Cs in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeC_count10', type=NUMBER, validate=reasonableNumberOfGrades),
+        input('Enter number of a-g Ds in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeD_count10', type=NUMBER, validate=reasonableNumberOfGrades),
+        input('Enter number of a-g Fs in the summer before 10th grade, 10th grade, and summer after 10th grade', name='gradeF_count10', type=NUMBER, validate=reasonableNumberOfGrades),
 
         input('Enter number of a-g As in 11th grade and summer after 11th grade', name='gradeA_count11', type=NUMBER, validate=reasonableNumberOfGrades),
         input('Enter number of a-g Bs in 11th grade and summer after 11th grade', name='gradeB_count11', type=NUMBER, validate=reasonableNumberOfGrades),
